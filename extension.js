@@ -45,8 +45,13 @@ function activate(context) {
 
       var mapObj = {
         "class=": "className=",
+        "for=": "htmlFor=",
         "-label": "Label",
         "-rule": "Rule",
+        "stroke-l": "strokeL",
+        "stroke-w": "strokeW",
+        "<!--": "{/*",
+        "-->": "*/}",
       };
 
       var formattedText = replaceAll(text, mapObj);
