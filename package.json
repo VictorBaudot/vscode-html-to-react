@@ -2,14 +2,19 @@
   "name": "html-to-react",
   "displayName": "html-to-react",
   "description": "Converts HTML code to React JSX",
-  "publisher": "victorbaudot",
+  "publisher": "VictorBaudot",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.46.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VictorBaudot/vscode-html-to-react.git"
+  },
   "categories": [
     "Other"
   ],
+  "icon": "icon/html-to-react.png",
   "keywords": [
     "html",
     "conversor",
