@@ -3,7 +3,7 @@
   "displayName": "html-to-react",
   "description": "Converts HTML code to React JSX",
   "publisher": "VictorBaudot",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.46.0"
   },
@@ -20,9 +20,11 @@
     "conversor",
     "jsx",
     "react",
+    "vue",
     "converter",
     "tailwind",
-    "tailwindcss"
+    "tailwindcss",
+    "tailwindui"
   ],
   "activationEvents": [
     "onCommand:html-to-react.convert"

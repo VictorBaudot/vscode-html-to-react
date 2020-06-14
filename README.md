@@ -16,7 +16,6 @@ Here's the current list:
 var mapObj = {
   "class=": "className=",
   "for=": "htmlFor=",
-  "-label": "Label",
   "-rule": "Rule",
   "stroke-l": "strokeL",
   "stroke-w": "strokeW",
