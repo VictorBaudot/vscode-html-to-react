@@ -21,6 +21,7 @@ var mapObj = {
   "stroke-w": "strokeW",
   "<!--": "{/*",
   "-->": "*/}",
+  tabindex: "tabIndex",
 };
 ```
 

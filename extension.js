@@ -51,6 +51,7 @@ function activate(context) {
         "stroke-w": "strokeW",
         "<!--": "{/*",
         "-->": "*/}",
+        tabindex: "tabIndex",
       };
 
       var formattedText = replaceAll(text, mapObj);
