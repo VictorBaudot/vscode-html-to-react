@@ -38,7 +38,7 @@ function activate(context) {
       var text = editor.document.getText(textRange);
 
       function replaceAll(str, mapObj) {
-        var re = new RegExp(Object.keys(mapObj).join("|"), "gi");
+        var re = new RegExp(Object.keys(mapObj).join("|"), "g");
 
         return str.replace(re, (matched) => mapObj[matched.toLowerCase()]);
       }
